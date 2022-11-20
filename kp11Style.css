@@ -1,0 +1,94 @@
+body, html{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('D:\Колледж/ИТ/веб/html/fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Yeseva';
+    src: url('D:\Колледж/ИТ/веб/html/fonts/YesevaOne-Regular.ttf');
+}
+.font{
+    font-family: 'NunitoSans';
+}
+
+.font_h1{
+    font-family: 'Yeseva';
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+}
+nav{
+    list-style-type: none;
+    float: right;
+    margin-right: 200px;
+}
+
+.header_nav{
+    margin-right: 47px;
+}
+
+.lotos{
+    margin-right: 1100px;
+}
+
+.header_navigate{
+    list-style: none;
+    display: flex;
+}
+
+.header_navigate a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    background-image: url('D:\Колледж/ИТ/веб/html/images/image 17.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+}
+
+.hero1{
+    display: inline-block;
+}
+
+.hero_item{
+    font-size: 40px;
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.hero_item1{
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 348px;
+    margin-left: 77px;
+    font-size: 20px;
+}
+
+.button{
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    padding: 10px 33px;
+    font-family: 'NunitoSans';
+}
+
+.img{
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    margin-top: 123px;
+    margin-left: 391px;
+}
+
+.wrapper{
+    display: flex;
+}
