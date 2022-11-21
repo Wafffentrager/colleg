@@ -92,3 +92,61 @@ nav{
 .wrapper{
     display: flex;
 }
+
+.katalog{
+    margin-left: 391px;
+    margin-top: 62px;
+}
+
+.rast{
+    margin-left: 391px;
+    margin-top: 152px;
+}
+
+.hero2{
+    margin-left: 20px;
+}
+
+.price{
+    margin-left: 230px;
+}
+
+.guide{
+    background-image: url('D:\Колледж/ИТ/веб/html/images/image 20.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+    width: 100%;
+}
+
+.guide1{
+    font-size: 75px;
+    margin-left: 390px;
+    padding-top: 274px;
+}
+
+input[type="Имя"] {
+    height: 56px;
+    width: 309px;
+    margin-left: 392px;
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type="Телефон"] {
+    height: 56px;
+    width: 309px;
+    margin-left: 42px;
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.zakaz{
+    margin-left: 392px;
+    margin-top: 60px;
+    height: 56px;
+    width: 161px;
+}
