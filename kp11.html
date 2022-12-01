@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link rel="stylesheet" href="D:\Колледж\ИТ\веб\html/kp11Style.css">
+    <link rel="stylesheet" href="D:\Колледж\ИТ\веб\html\css/kp11Style.css">
     <title>Практическая</title>
 </head>
 <body>
@@ -12,19 +12,19 @@
                     <div class="lotos"><img src="D:\Колледж\ИТ\веб\html\images/лотос.png" height="40px" width="40px" alt="lotos"></div>
                 </li>
                 <li class="header_nav"><a href="#О нас">О нас</a></li>
-                <li class="header_nav"><a href="#">Каталог</a></li>
-                <li class="header_nav"><a href="#">Блог</a></li>
-                <li class="header_nav"><a href="#">Контакты</a></li>
+                <li class="header_nav"><a href="#Каталог">Каталог</a></li>
+                <li class="header_nav"><a href="#Блог">Блог</a></li>
+                <li class="header_nav"><a href="#Контакты">Контакты</a></li>
             </ul>
         </nav>
     </header>
     <section class="hero">
      <div class="hero_item">
-        <h1 class="font_h1">Джунгли у вас дома</h1>
+        <h1 class="font1">Джунгли у вас дома</h1>
             <p class="font">У нас растения, за которыми<br>
                легко ухаживать
             </p>
-        <button class="button">Выбрать растение</button>
+        <button class="button"><a href="#Каталог">Выбрать растение</a></button>
      </div>
     </section>
 
@@ -33,7 +33,7 @@
                 <img src="D:\Колледж\ИТ\веб\html\images/image 18.png" width = "492px" height = "669px" alt="">
             </div>
             <div class="hero_item1">
-                <h2 id = "О нас">О нас</h2>
+                <h2 class="font1" id = "О нас">О нас</h2>
                 <p class="font">Наша команда из опытных специалистов<br>
                 выращивает здоровые растения, которые будут<br>
                 радовать вас долгие года. Сопровождаем каждого<br>
@@ -41,7 +41,7 @@
                 памятку по растению. </p>
             </div>
     </div>
-     <div class="rast">
+    <div class="rast">
         <h2 class="font1" id="Каталог">Наши растения</h2>
         <p class="font">Выберите растение по душе</p>
     </div>
@@ -100,7 +100,7 @@
         <div class="hero2">
             <img src="D:\Колледж\ИТ\веб\html\images/image 19.png" alt="">
             <div class="wrapper">
-                <p>Монстера </p>
+                <p>Монстера</p>
                 <p class="price">400-900 Р</p>
             </div>
             <button class="button">Заказать</button>
@@ -116,5 +116,47 @@
         </div>
         <button class="button zakaz">Получить</button>
     </div>
+
+    <div class="blog" id="Блог">
+        <div>
+            <h2 class="font1" style="font-size: 48px;">Блог</h2>
+            <p>Узнайте больше полезной информации об уходе за растениями</p>
+                <div class="wrapper">
+                    <div>
+                        <img src="D:\Колледж\ИТ\веб\html\images/image 22.png" alt="">
+                        <p>Как выбрать растение домой</p>
+                    </div>
+                    <div class="blog1">
+                        <img src="D:\Колледж\ИТ\веб\html\images/image 22.png" alt="">
+                        <p>Как выбрать растение домой</p>
+                    </div>
+                </div>
+                <div class="wrapper blog2">
+                    <div>
+                        <img src="D:\Колледж\ИТ\веб\html\images/image 22.png" alt="">
+                        <p>Как выбрать растение домой</p>
+                    </div>
+                    <div class="blog1">
+                        <img src="D:\Колледж\ИТ\веб\html\images/image 22.png" alt="">
+                        <p>Как выбрать растение домой</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer" id="Контакты">
+            <h2 class="footer1">Оставайтесь с нами<br>
+                на связи</h2>
+            <p class="footer2">+7 999 123 25-25</p>
+            <p class="footer2">Телеграм</p>
+            <p class="footer2">Вконтакте</p>
+        </div>
+
+        <div class="contacts">
+            <img src="D:\Колледж\ИТ\веб\html\images/лотос.png" height="40px" width="40px" alt="">
+            <p>HomePlants</p>
+            <p>2022</p>
+        </div>
+    </footer>
 </body>
 </html>
