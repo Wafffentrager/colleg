@@ -112,7 +112,7 @@ nav{
 }
 
 .guide{
-    background-image: url('D:\Колледж/ИТ/веб/html/images/image 20.png');
+    background-image: url('D:/Колледж/ИТ/веб/html/images/image 20.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -149,4 +149,43 @@ input[type="Телефон"] {
     margin-top: 60px;
     height: 56px;
     width: 161px;
+}
+
+.blog{
+    margin-left: 390px;
+    margin-top: 125px;
+}
+
+.blog1{
+    margin-left: 20px;
+}
+
+.blog2{
+    margin-top: 60px;
+}
+
+.footer{
+    background-image: url("D:/Колледж/ИТ/веб/html/images/image 23.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 629px;
+}
+
+.footer1{
+    font-size: 75px;
+    margin-left: 960px;
+    padding-top: 140px;
+}
+
+.footer2{
+    font-size: 24px;
+    margin-top: 18px;
+    margin-left: 960px;
+}
+
+.contacts{
+    text-align: center;
+    margin-top: 20px;
 }
